@@ -5,7 +5,7 @@ app = Flask(__name__)
 
 @app.route("/")
 def index():
-    names=['小可愛','長頸鹿']
+    names=['小可愛','肥嘟嘟','奇奇','嚕嚕','天天']
     return render_template("index.jinja.html",names=names)
 @app.route("/kiki")
 def kiki():

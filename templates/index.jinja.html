@@ -1,5 +1,10 @@
 {% extends "base.jinja.html" %}
 {% block title %}胖子{% endblock %}
 {% block content %}<h1>肥嘟嘟佐衛們</h1>
-{{names}}
+<ul>
+    {% for item in names %}
+    <li>{{ item }}</li>
+    {% endfor %}
+</ul>
+
 {% endblock %}
